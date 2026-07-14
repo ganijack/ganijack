@@ -1,67 +1,76 @@
 {
   "$schema": "./profile.schema.json",
   "profile": {
-    "name": "Your Name",
-    "username": "yourusername",
-    "headline": "AI Engineer & Product Builder",
-    "affiliation": "Your University or Company",
-    "location": "City, Country",
-    "status": "Learning / Building / Shipping",
+    "name": "Thoriq Abdillah Falian Kusuma",
+    "username": "ganijack",
+    "headline": "CS Student • AI & Full Stack Developer",
+    "affiliation": "University of Mataram",
+    "location": "Lombok, Indonesia",
+    "status": "Building AI-powered applications",
     "about": [
-      "I build practical systems at the intersection of artificial intelligence, software engineering, and products people can trust.",
-      "My work combines technical exploration with a builder mindset: understand the problem, test the system, and share what actually works."
+      "I'm a Computer Science student passionate about Artificial Intelligence, Backend Development, and building impactful software.",
+      "I enjoy turning ideas into real-world applications while continuously learning modern technologies, solving challenging problems, and contributing to open-source projects."
     ]
   },
   "research": {
-    "primary": "AI Agents",
-    "direction": "Reliable autonomous systems",
-    "themes": "Tool use / evaluation / human control",
-    "narrative": "I am interested in systems that can observe state, use tools, evaluate outcomes, and take bounded actions with clear evidence and human oversight."
+    "primary": "Artificial Intelligence",
+    "direction": "AI apps & intelligent systems",
+    "themes": "LLMs / AI Agents / Full Stack / Backend",
+    "narrative": "I'm interested in building intelligent software that combines large language models, scalable backend systems, and modern web technologies to solve practical real-world problems."
   },
   "focus": [
     {
-      "name": "AI Agents",
-      "description": "Autonomous workflows, tool use, evaluation, and reliable agent behavior."
+      "name": "Artificial Intelligence",
+      "description": "Building AI-powered applications using LLMs, AI Agents, and modern AI frameworks."
     },
     {
-      "name": "Applied AI",
-      "description": "Turning model capabilities into useful and testable software systems."
+      "name": "Full Stack Development",
+      "description": "Developing scalable web applications with Next.js, TypeScript, and modern backend technologies."
     },
     {
-      "name": "Developer Tools",
-      "description": "Better workflows for building, testing, and operating modern software."
+      "name": "Backend Engineering",
+      "description": "Designing APIs, databases, authentication systems, and cloud-ready architectures."
     }
   ],
   "projects": [
     {
-      "name": "Project One",
-      "url": "https://github.com/yourusername/project-one",
+      "name": "FinanceAI",
+      "url": "https://finance-ai-beta-orcin.vercel.app/",
       "homepage": "",
-      "focus": "Primary project focus",
-      "summary": "A concise explanation of what the project does and why it matters.",
-      "heroLabel": "Primary build"
+      "focus": "AI Personal Finance Platform",
+      "summary": "An AI-powered personal finance platform built with Next.js, TypeScript, Prisma, Supabase, and Google Gemini to help users manage expenses and gain intelligent financial insights.",
+      "heroLabel": "FinTech AI"
     },
     {
-      "name": "Project Two",
-      "url": "https://github.com/yourusername/project-two",
+      "name": "3Dex Studio",
+      "url": "https://3dex.studio",
       "homepage": "",
-      "focus": "Secondary project focus",
-      "summary": "A second project that supports the professional direction of this profile.",
-      "heroLabel": "Active system"
+      "focus": "Business Website",
+      "summary": "Designed and developed a modern business website focused on performance, responsive design, SEO, and an engaging user experience to strengthen the company's online presence.",
+      "heroLabel": "CGI Studio"
     }
   ],
   "techStack": [
     "TypeScript",
-    "Next.js",
+    "JavaScript",
     "Python",
+    "C++",
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Node.js",
+    "Prisma",
+    "Supabase",
     "PostgreSQL",
-    "Playwright"
+    "Google Gemini API",
+    "Git",
+    "GitHub"
   ],
   "links": [
     {
       "label": "GitHub",
-      "value": "yourusername",
-      "url": "https://github.com/yourusername",
+      "value": "ganijack",
+      "url": "https://github.com/ganijack",
       "logo": "github",
       "color": "0B1220"
     }
@@ -73,5 +82,5 @@
   "appearance": {
     "palette": "signal"
   },
-  "footer": "Building thoughtful systems and sharing what works."
+  "footer": "Always learning, always building, and always shipping."
 }
