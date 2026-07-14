@@ -38,7 +38,7 @@
       "url": "https://finance-ai-beta-orcin.vercel.app/",
       "homepage": "",
       "focus": "AI Personal Finance Platform",
-      "summary": "An AI-powered personal finance platform built with Next.js, TypeScript, Prisma, Supabase, and Google Gemini to help users manage expenses and gain intelligent financial insights.",
+      "summary": "Empowers users to manage their finances confidently with AI-powered insights and intelligent budgeting.",
       "heroLabel": "FinTech AI"
     },
     {
@@ -46,7 +46,7 @@
       "url": "https://3dex.studio",
       "homepage": "",
       "focus": "Business Website",
-      "summary": "Designed and developed a modern business website focused on performance, responsive design, SEO, and an engaging user experience to strengthen the company's online presence.",
+      "summary": "Creates a professional online presence that helps businesses showcase their services and convert visitors into clients.",
       "heroLabel": "CGI Studio"
     }
   ],
