@@ -22,7 +22,7 @@ Create a professional English GitHub Profile README that accurately presents who
 8. Generate the profile with:
 
    ```bash
-   npm install
+   npm ci
    npm run generate -- --source /absolute/path/to/my-transparent-portrait.png
    ```
 

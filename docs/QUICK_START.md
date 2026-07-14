@@ -13,19 +13,23 @@ Your source portrait should ideally be at least 1200 pixels tall, well lit, and 
 
 ## 1. Create Your Profile Repository
 
-Use this repository as a GitHub template. Name the new public repository exactly after your username.
+On the starter repository, click **Use this template**, select **Create a new repository**, and choose your personal GitHub account as the owner. Name the new public repository exactly after your username.
 
 For example, the user `octocat` must create `octocat/octocat`.
 
-Do not name it `my-profile`, `github-readme`, or `portfolio`; GitHub will treat those as normal repositories instead of a Profile README.
+Do not name it `my-profile`, `github-readme`, or `portfolio`; GitHub will treat those as normal repositories instead of a Profile README. Do not clone the starter repository directly: create your own profile repository from the template first.
 
-## 2. Clone It
+## 2. Clone Your New Repository
+
+Clone the profile repository you just created. For example, if your username is `octocat`:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_USERNAME.git
-cd YOUR_USERNAME
-npm install
+git clone https://github.com/octocat/octocat.git
+cd octocat
+npm ci
 ```
+
+Replace every `octocat` with your own GitHub username. `npm ci` installs the exact dependency versions recorded in the included lockfile.
 
 ## 3. Keep the Portrait Private
 
@@ -44,6 +48,8 @@ Use the guided wizard:
 ```bash
 npm run setup
 ```
+
+The wizard asks for your public profile content and the absolute portrait path. It then updates `profile.config.json`, creates four responsive SVG assets, and replaces the starter `README.md` with your generated profile.
 
 Or edit `profile.config.json` and run:
 
@@ -75,7 +81,7 @@ Make sure:
 ```bash
 git add README.md profile.config.json assets/hero
 git commit -m "feat: create my GitHub profile"
-git push
+git push origin main
 ```
 
 Visit `https://github.com/YOUR_USERNAME` and confirm the README appears above pinned repositories.

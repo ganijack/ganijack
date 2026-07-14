@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/wildanniam/github-profile-agent-console/generate"><img alt="Use this template" src="https://img.shields.io/badge/Use_this_template-Create_yours-0891B2?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://github.com/wildanniam/GitHub-Profile-Console/generate"><img alt="Use this template" src="https://img.shields.io/badge/Use_this_template-Create_yours-0891B2?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
 <p align="center">
@@ -25,6 +25,10 @@
 </p>
 
 This is an opinionated starter kit, not a loose prompt. It provides the layout, portrait renderer, responsive SVG animation, configuration schema, setup wizard, README generator, validation, and optional recent-activity automation.
+
+## Before You Start
+
+You need a GitHub account, [Git](https://git-scm.com/), Node.js 20 or newer, and a head-to-torso PNG with a transparent background. The setup runs locally on macOS, Linux, or Windows.
 
 ## What It Creates
 
@@ -37,9 +41,13 @@ This is an opinionated starter kit, not a loose prompt. It provides the layout, 
 
 ## Quick Start
 
-### 1. Create the special GitHub profile repository
+### 1. Create your GitHub Profile repository
 
-Click **Use this template**, then create a public repository whose name exactly matches your GitHub username.
+Click **Use this template** above, select **Create a new repository**, and use these settings:
+
+- **Owner:** your personal GitHub account
+- **Repository name:** exactly your GitHub username
+- **Visibility:** Public
 
 ```text
 GitHub username: octocat
@@ -47,19 +55,23 @@ Repository name: octocat
 Repository URL:  github.com/octocat/octocat
 ```
 
-GitHub only displays a Profile README when the repository owner and repository name match.
+GitHub only displays a Profile README when the repository owner and repository name match. Do not clone this starter repository directly for your profile; create your own repository from the template first.
 
-### 2. Clone and install
+### 2. Clone your new repository and install
+
+Clone the profile repository you just created. For example, if your username is `octocat`:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_USERNAME.git
-cd YOUR_USERNAME
-npm install
+git clone https://github.com/octocat/octocat.git
+cd octocat
+npm ci
 ```
+
+Replace every `octocat` in the example with your own GitHub username. Run the commands from Terminal, PowerShell, or the integrated terminal in your code editor.
 
 ### 3. Prepare your portrait
 
-Use a head-to-torso PNG with a transparent background. Keep the file outside the repository when possible.
+Use a head-to-torso PNG with a transparent background. Keep the source file outside the repository when possible, for example `~/Pictures/profile-transparent.png`. The generator reads it locally and does not copy it into your repository.
 
 ### 4. Choose your setup path
 
@@ -69,18 +81,30 @@ Use a head-to-torso PNG with a transparent background. Keep the file outside the
 npm run setup
 ```
 
-**AI coding agent:** open [`PROMPT.md`](./PROMPT.md), attach your portrait path, and ask Codex, Claude Code, or another coding agent to follow it.
+The wizard asks for your public profile information and the absolute path to your portrait, then generates the hero assets and replaces this starter README with your profile README.
 
-### 5. Validate and publish
+**AI coding agent:** after installing the dependencies, open [`PROMPT.md`](./PROMPT.md), attach your portrait path, and ask Codex, Claude Code, or another coding agent to follow it.
+
+### 5. Review the generated profile
 
 ```bash
 npm run check
+git status --short
+```
+
+Open the four generated SVG files in `assets/hero/` and check the desktop/mobile variants in both dark and light mode. Confirm that your project links are correct and that the original portrait is not listed by `git status`.
+
+### 6. Publish
+
+```bash
 git add README.md profile.config.json assets/hero
 git commit -m "feat: create my GitHub profile"
-git push
+git push origin main
 ```
 
 Your profile should appear at `https://github.com/YOUR_USERNAME` shortly after the push.
+
+If GitHub asks you to approve workflows created from a template, open the repository's **Actions** tab and enable them. The optional activity workflow only runs when the repository name matches its owner.
 
 For a slower walkthrough, read [Quick Start](./docs/QUICK_START.md).
 
