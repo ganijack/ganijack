@@ -68,7 +68,7 @@ export async function generateProfileReadme({ config, manifest, readmePath }) {
     const lowerItem = item.toLowerCase();
     const logo = logoMap[lowerItem] || encodeURIComponent(lowerItem.replace(/[^a-z0-9]/g, ''));
     const link = `https://github.com/topics/${lowerItem.replace(/[^a-z0-9]+/g, '-')}`;
-    return `[![${item}](https://img.shields.io/badge/${badgeText}-0F172A?style=flat&logo=${logo}&logoColor=white)](${link})`;
+    return `[![${item}](https://img.shields.io/badge/${badgeText}-0F172A?style=flat&logo=${logo})](${link})`;
   }).join(" ");
   const about = config.profile.about.join("\n\n");
 
