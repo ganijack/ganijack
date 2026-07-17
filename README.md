@@ -45,11 +45,10 @@ I'm interested in building intelligent software that combines large language mod
 ## Recent Activity
 
 <!-- AUTO:ACTIVITY:START -->
+- Jul 16, 2026: pushed 1 commit to [ganijack/finance-ai](https://github.com/ganijack/finance-ai).
 - Jul 15, 2026: pushed 1 commit to [ganijack/ganijack](https://github.com/ganijack/ganijack).
 - Jul 14, 2026: pushed 1 commit to [ganijack/ganijack](https://github.com/ganijack/ganijack).
 - Jul 14, 2026: pushed 1 commit to [ganijack/finance-ai](https://github.com/ganijack/finance-ai).
-- Jul 13, 2026: created a branch in [ganijack/finance-ai](https://github.com/ganijack/finance-ai).
-- Jun 17, 2026: pushed 1 commit to [ganijack/PCDGroup4](https://github.com/ganijack/PCDGroup4).
 <!-- AUTO:ACTIVITY:END -->
 
 ---
