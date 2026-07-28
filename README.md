@@ -45,11 +45,9 @@ I'm interested in building intelligent software that combines large language mod
 ## Recent Activity
 
 <!-- AUTO:ACTIVITY:START -->
+- Jul 28, 2026: pushed 1 commit to [ganiout1/SmartMed](https://github.com/ganiout1/SmartMed).
+- Jul 27, 2026: pushed 1 commit to [ganiout1/SmartMed](https://github.com/ganiout1/SmartMed).
 - Jul 22, 2026: pushed 1 commit to [ganiout1/SmartMed](https://github.com/ganiout1/SmartMed).
-- Jul 21, 2026: pushed 1 commit to [ganiout1/SmartMed](https://github.com/ganiout1/SmartMed).
-- Jul 21, 2026: created a branch in [ganiout1/SmartMed](https://github.com/ganiout1/SmartMed).
-- Jul 20, 2026: pushed 1 commit to [ganijack/finance-ai](https://github.com/ganijack/finance-ai).
-- Jul 16, 2026: pushed 1 commit to [ganijack/finance-ai](https://github.com/ganijack/finance-ai).
 <!-- AUTO:ACTIVITY:END -->
 
 ---
