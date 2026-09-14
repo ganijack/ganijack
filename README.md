@@ -49,8 +49,6 @@ I'm interested in building intelligent software that combines large language mod
 - Aug 28, 2026: pushed 1 commit to [ganijack/Kebablasan5](https://github.com/ganijack/Kebablasan5).
 - Aug 18, 2026: pushed 1 commit to [ganijack/finance-ai](https://github.com/ganijack/finance-ai).
 - Aug 17, 2026: pushed 1 commit to [ganiout1/SmartMed](https://github.com/ganiout1/SmartMed).
-- Aug 14, 2026: pushed 1 commit to [ganiout1/SmartMed](https://github.com/ganiout1/SmartMed).
-- Aug 14, 2026: pushed 1 commit to [ganijack/finance-ai](https://github.com/ganijack/finance-ai).
 <!-- AUTO:ACTIVITY:END -->
 
 ---
