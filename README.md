@@ -45,6 +45,8 @@ I'm interested in building intelligent software that combines large language mod
 ## Recent Activity
 
 <!-- AUTO:ACTIVITY:START -->
+- Sep 27, 2026: pushed 1 commit to [ganijack/OOP](https://github.com/ganijack/OOP).
+- Sep 27, 2026: created a branch in [ganijack/OOP](https://github.com/ganijack/OOP).
 - Sep 17, 2026: pushed 1 commit to [ganiout1/SmartMed](https://github.com/ganiout1/SmartMed).
 - Sep 6, 2026: pushed 1 commit to [ganiout1/SmartMed](https://github.com/ganiout1/SmartMed).
 - Aug 28, 2026: pushed 1 commit to [ganijack/Kebablasan5](https://github.com/ganijack/Kebablasan5).
