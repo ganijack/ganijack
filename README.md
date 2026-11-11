@@ -46,8 +46,6 @@ I'm interested in building intelligent software that combines large language mod
 
 <!-- AUTO:ACTIVITY:START -->
 - Oct 27, 2026: pushed 1 commit to [ganijack/OOP](https://github.com/ganijack/OOP).
-- Oct 11, 2026: created a branch in [ganijack/finance-ai](https://github.com/ganijack/finance-ai).
-- Oct 11, 2026: pushed 1 commit to [ganijack/finance-ai](https://github.com/ganijack/finance-ai).
 <!-- AUTO:ACTIVITY:END -->
 
 ---
